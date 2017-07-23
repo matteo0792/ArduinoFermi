@@ -177,6 +177,12 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Settings.vb" />
+    <Compile Include="TestCOMConnection.Designer.vb">
+      <DependentUpon>TestCOMConnection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TestCOMConnection.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Utility.Designer.vb">
       <DependentUpon>Utility.vb</DependentUpon>
     </Compile>
@@ -217,6 +223,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestCOMConnection.resx">
+      <DependentUpon>TestCOMConnection.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Utility.resx">
       <DependentUpon>Utility.vb</DependentUpon>
